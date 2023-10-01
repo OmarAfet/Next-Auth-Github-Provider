@@ -16,7 +16,7 @@ function AuthButton() {
 					</div>
 					<div className="flex gap-2">
 						<button onClick={() => signOut()}>Sign Out</button>
-						<Link className="github-btn" href={"https://github.com/OmarAfet/Next-Auth-Github-Provider"}>
+						<Link target="_blank" className="github-btn" href={"https://github.com/OmarAfet/Next-Auth-Github-Provider"}>
 							Github Repo
 						</Link>
 					</div>
@@ -29,7 +29,7 @@ function AuthButton() {
 		<>
 			<div className="flex justify-center px-32 py-4 items-center gap-2">
 				<button onClick={() => signIn()}>Sign In</button>
-				<Link className="github-btn" href={"https://github.com/OmarAfet/Next-Auth-Github-Provider"}>
+				<Link target="_blank" className="github-btn" href={"https://github.com/OmarAfet/Next-Auth-Github-Provider"}>
 					Github Repo
 				</Link>
 			</div>
